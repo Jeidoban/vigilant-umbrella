@@ -1,8 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
-  "name": "plugin-name",
-  "version-semver": "0.0.1",
-  "dependencies": ["commonlibsf", "simpleini"],
+  "name": "vigilant-umbrella",
+  "version-semver": "1.0.0",
+  "dependencies": [
+    "commonlibsf",
+    "simpleini"
+  ],
   "license": "GPL-3.0-or-later",
   "vcpkg-configuration": {
     "default-registry": {
@@ -14,8 +17,10 @@
       {
         "kind": "git",
         "repository": "https://github.com/Starfield-Reverse-Engineering/Starfield-RE-vcpkg",
-        "baseline": "55d62818c3b1fe6a06e6059aef1fe2a7006cefc0",
-        "packages": ["commonlibsf"]
+        "baseline": "2b8f03a9acca35bdd292312529b794e0a8369b1b",
+        "packages": [
+          "commonlibsf"
+        ]
       }
     ]
   }
