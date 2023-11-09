@@ -26,7 +26,7 @@ namespace Hooks
         * (which is the new amount of ammo in a magazine after firing a weapon). 
         */
         static std::int64_t thunk(std::int64_t probablyAPointer, std::int32_t newAmmoAmount, std::uint32_t noIdea) {
-            // RE::ConsoleLog::GetSingleton()->Print("First arg: %d. Second arg: %d, Third arg: %d", probablyAPointer, newAmmoAmount, noIdea);
+            //RE::ConsoleLog::GetSingleton()->Print("First arg: %d. Second arg: %d, Third arg: %d", probablyAPointer, newAmmoAmount, noIdea);
             if (newAmmoAmount == 1) {
                 return func(probablyAPointer, 2, noIdea);
             }
